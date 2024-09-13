@@ -18,9 +18,11 @@
         "project": "./tsconfig.json"
       },
       "rules": {
+        //custom rules
         "semi": ["error", "always"],
         "no-debugger": "off",
         "no-unused-vars": ["error", { "args": "none", "ignoreRestSiblings": true }],
+        "no-shadow": "off",
         "@angular-eslint/directive-selector": [
           "error",
           {
