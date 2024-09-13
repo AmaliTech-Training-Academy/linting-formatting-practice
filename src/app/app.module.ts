@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { AppSampleComponent } from './sample/sample.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent
+    UserListComponent,
+    AppSampleComponent
   ],
   imports: [
     BrowserModule
@@ -15,4 +18,5 @@ import { UserListComponent } from './user-list/user-list.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

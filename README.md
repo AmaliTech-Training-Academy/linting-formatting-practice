@@ -1,8 +1,11 @@
-## Linting and Formatting
+# Angular Project with ESLint and Prettier
 
-### ESLint
+## Project Description
 
-- **Configuration**: Extends recommended rules for Angular and Airbnb.
+This Angular project has been configured with ESLint and Prettier to enhance code quality and maintain consistency across the codebase. ESLint helps in identifying and fixing problems in JavaScript and TypeScript code, while Prettier ensures consistent code formatting.
+
+### ESLint Configuration
+_**Configuration**: Recommended for angular
 
 
 ### Prettier
