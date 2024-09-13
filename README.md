@@ -143,7 +143,7 @@ After manually removing all console.logs in app.component.ts, there was another 
 
 ## Live Preview of the project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Follow this link to preview the project [Link](https://charming-beijinho-28efa8.netlify.app/)
 
 ## Development server
 
