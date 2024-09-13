@@ -127,6 +127,20 @@ npx lint-staged
 
 When you stage your changes, husky will prettify and lint the whole added files.
 
+## Bugs fixed after cloning the repository
+
+After cloning the repo, there was an app.module.ts file that had both components imported, even thought the project was scafolded using standolone components. to fix the bug, I had to make both components standalone and import all necessary imports to fix bugs.
+
+## Errors and Warnings
+
+They were like 12 after configuring and linting the entire codebase, and after pretifying it. it automatically fixed some of them like turning the let variable into const because it was never reassigned.
+
+Removing all unused imports and unused variables.
+
+But things like console.log that were in app.component.ts had to be manually fixed.
+
+After manually removing all console.logs in app.component.ts, there was another console.log in main.ts file that logs the error when there's an error bootsrapping all components, I had to ignore that one by adding a .eslintignore file in root of my application.
+
 ## Live Preview of the project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.

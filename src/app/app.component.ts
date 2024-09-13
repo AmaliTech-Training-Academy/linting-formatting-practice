@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 import { UserListComponent } from "./user-list/user-list.component";
 
 @Component({
@@ -8,20 +8,4 @@ import { UserListComponent } from "./user-list/user-list.component";
   standalone: true,
   imports: [UserListComponent],
 })
-export class AppComponent implements OnInit {
-  constructor() {
-    console.log("App component initialized");
-  }
-
-  ngOnInit() {
-    const x = 10;
-    if (x == 10) {
-      console.log("x is 10");
-    }
-  }
-
-  public doSomething(): void {
-    const y = 20;
-    console.log(y);
-  }
-}
+export class AppComponent {}
