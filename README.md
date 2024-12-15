@@ -1,27 +1,29 @@
-# LintingFormattingPractice
+# Angular Project with ESLint and Prettier
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+## Project Description
 
-## Development server
+This Angular project has been configured with ESLint and Prettier to enhance code quality and maintain consistency across the codebase. ESLint helps in identifying and fixing problems in JavaScript and TypeScript code, while Prettier ensures consistent code formatting.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### ESLint Configuration
+_**Configuration**: Recommended for angular
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prettier
 
-## Build
+- **Configuration**: Uses consistent styling rules, including single quotes and trailing commas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### NPM Scripts
 
-## Running unit tests
+- `lint`: Runs ESLint on the project.
+- `format`: Formats code with Prettier.
+- `lint:fix`: Automatically fixes linting issues.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Husky
 
-## Running end-to-end tests
+- **Pre-commit Hook**: Runs linting and formatting before each commit using lint-staged.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To install dependencies and set up hooks, run:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install
+npm run prepare

@@ -14,7 +14,7 @@ import { UserService } from '../user.service';
   `]
 })
 export class UserListComponent implements OnInit {
-  users: any[];
+  users: {name: string; age: number}[] = [];
 
   constructor(private userService: UserService) {}
 
